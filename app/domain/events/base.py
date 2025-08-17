@@ -9,4 +9,3 @@ class BaseEvent(ABC):
         default_factory=uuid4,
         kw_only=True,
     )
-    
